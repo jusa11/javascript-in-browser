@@ -1,0 +1,84 @@
+@font-face {
+	font-family: 'FreeHandCyr-Italic';
+    src: url('fonts/FreeHandCyr-Italic.eot'), url('fonts/FreeHandCyr-Italic.ttf'), url('fonts/FreeHandCyr-Italic.woff'), url('fonts/FreeHandCyr-Italic.woff2');
+}
+
+@font-face {
+    font-family: 'PT-Astra-Sans';
+    src: url('fonts/pt-astra-sans.eot'), url('fonts/pt-astra-sans.otf'), url('fonts/pt-astra-sans.woff'), url('fonts/pt-astra-sans.woff2');
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+	background-color: black;
+
+}
+
+.header {
+    display: flex;
+    height: 65vh;
+    width: 99vw;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:3vw;
+}
+
+.card__left {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    min-width: 250px;
+    box-sizing: border-box;
+    font-family: 'PT-Astra-Sans';
+    font-size: 12px;
+    font-weight: 200;
+    color: wheat;
+    margin-left: 10px;
+    border: 1px red solid;
+
+}
+
+.card__center {
+	display: flex;
+	width: 50%;
+    min-width: 700px;
+    min-height: 450px;
+    box-sizing: border-box;
+}
+
+.game__box {
+    display: flex;
+    flex-direction: column;
+    min-width: 700px;
+	height: auto;
+    min-height: 450px;
+	background-image: url('pole.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-top: 35px;
+
+}
+
+.card__right {
+    display: flex;
+    width: 25%;
+    min-width: 270px;
+    border: 1px red solid;
+}
+
+.footer {
+    display: flex;
+    height: 30vh;
+    border: 2px red solid;
+    box-sizing: content-box;
+}
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Ter
